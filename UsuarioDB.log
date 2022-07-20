@@ -1,0 +1,152 @@
+03:10:46 AM: DEBUG [logger_base.py:11] DEBUG
+03:28:21 AM: DEBUG [Usuario.py:39] ID: 1
+        Usuario: Felipe | Contraseña: 123123
+03:47:00 AM: DEBUG [Usuario.py:39] ID: 1
+        Usuario: Felipe | Contraseña: 123123
+04:18:58 AM: DEBUG [CursorDelPool.py:10] Inicio del metodo with __enter__
+04:18:58 AM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002A262628310>
+04:18:58 AM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002A2625C88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:18:58 AM: DEBUG [UsuarioDao.py:27] Usuario a insertar: ID: None
+        Usuario: Nahuel | Contraseña: 123123123
+04:18:58 AM: DEBUG [CursorDelPool.py:16] Inicio del metodo with __exit__
+04:18:58 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000002A26261F040>
+04:18:58 AM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002A2625C88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:27:35 AM: DEBUG [Usuario.py:39] ID: 1
+        Usuario: Felipe | Contraseña: 123123
+04:51:02 AM: DEBUG [CursorDelPool.py:10] Inicio del metodo with __enter__
+04:51:02 AM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000213388D7F70>
+04:51:02 AM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002133A4848C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:51:02 AM: DEBUG [UsuarioDao.py:15] Seleccionando usuarios
+04:51:02 AM: DEBUG [CursorDelPool.py:16] Inicio del metodo with __exit__
+04:51:02 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x000002133A4ACAC0>
+04:51:02 AM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002133A4848C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:51:50 AM: DEBUG [CursorDelPool.py:10] Inicio del metodo with __enter__
+04:51:50 AM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000207458A6140>
+04:51:50 AM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x00000207478A88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:51:50 AM: DEBUG [UsuarioDao.py:15] Seleccionando usuarios
+04:51:50 AM: DEBUG [CursorDelPool.py:16] Inicio del metodo with __exit__
+04:51:50 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x00000207478DBAC0>
+04:51:50 AM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x00000207478A88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:58:57 AM: DEBUG [MenuAppUsuario.py:17] Los usuarios listados son
+04:58:57 AM: DEBUG [CursorDelPool.py:10] Inicio del metodo with __enter__
+04:58:57 AM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000014A4BF77F70>
+04:58:57 AM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x0000014A4DAE88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:58:57 AM: DEBUG [UsuarioDao.py:15] Seleccionando usuarios
+04:58:57 AM: DEBUG [CursorDelPool.py:16] Inicio del metodo with __exit__
+04:58:57 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x0000014A4DB1BCC0>
+04:58:57 AM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x0000014A4DAE88C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:03:02 AM: DEBUG [MenuAppUsuario.py:15] Los usuarios listados son
+05:03:02 AM: DEBUG [CursorDelPool.py:10] Inicio del metodo with __enter__
+05:03:03 AM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002EC45557F70>
+05:03:03 AM: DEBUG [Conexion.py:37] Conexion obtenida del pool: <connection object at 0x000002EC471088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:03:03 AM: DEBUG [UsuarioDao.py:15] Seleccionando usuarios
+05:03:03 AM: DEBUG [CursorDelPool.py:16] Inicio del metodo with __exit__
+05:03:03 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x000002EC4713BD80>
+05:03:03 AM: DEBUG [Conexion.py:43] Regresamos la conexion al pool: <connection object at 0x000002EC471088C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:04:41 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x0000023AD3EBD9C0>
+05:08:04 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: relation "usuarios" does not exist
+LINE 1: SELECT * FROM Usuarios ORDER BY id_usuario
+                      ^
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x000001C4D556BF00>
+05:09:47 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:09:47 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:09:47 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:14:06 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:14:06 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:14:06 AM: INFO [MenuAppUsuario.py:18] <class 'Usuario.Usuario'>
+05:18:41 AM: INFO [MenuAppUsuario.py:19] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+05:18:41 AM: INFO [MenuAppUsuario.py:19] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+05:18:41 AM: INFO [MenuAppUsuario.py:19] ID: 3
+        Usuario: Felipe | Contraseña: asheee
+05:19:49 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x00000158A0B4FF00>
+05:20:37 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000001290DFAFE00>
+05:23:01 AM: INFO [MenuAppUsuario.py:19] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+05:23:01 AM: INFO [MenuAppUsuario.py:19] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+05:23:01 AM: INFO [MenuAppUsuario.py:19] ID: 3
+        Usuario: Felipe | Contraseña: asheee
+05:27:43 AM: INFO [MenuAppUsuario.py:20] Salimos de la aplicacion
+05:34:17 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x00000216212EBFC0>
+05:38:20 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000029F4F52BF80>
+05:42:08 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000016905F9B440>
+05:44:07 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000001291A768500>
+05:49:16 AM: INFO [MenuAppUsuario.py:30] Salimos de la aplicacion
+05:49:21 AM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+05:49:21 AM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+05:49:21 AM: INFO [MenuAppUsuario.py:18] ID: 3
+        Usuario: Felipe | Contraseña: asheee
+05:49:30 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000002C43665B440>
+05:50:10 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000017A77DEB3C0>
+05:52:30 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000001F839698500>
+05:54:40 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000002C9C88BB680>
+05:59:05 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x00000296D2BBB4C0>
+06:06:32 AM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000022DFF348500>
+07:41:47 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000002193D8BB540>
+07:44:15 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000001F5E4378500>
+07:44:30 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000027DB557B640>
+07:45:13 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x00000179EE54B640>
+08:07:00 PM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+08:07:00 PM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+08:07:00 PM: INFO [MenuAppUsuario.py:18] ID: 3
+        Usuario: Felipe | Contraseña: asheee
+08:12:01 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: can't adapt type 'property', <class 'psycopg2.ProgrammingError'>, <traceback object at 0x0000016ABA8CBB00>
+08:17:03 PM: INFO [MenuAppUsuario.py:36] Usuarios eliminados: 1
+08:19:21 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: duplicate key value violates unique constraint "Tabla de Usuarios_pkey"
+DETAIL:  Key (id_usuario)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001A3AF5087C0>
+08:23:40 PM: INFO [MenuAppUsuario.py:38] Salimos de la aplicacion
+08:23:45 PM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+08:23:45 PM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+08:24:11 PM: ERROR [CursorDelPool.py:19] Ocurrio una excepcion, rollback en camino: duplicate key value violates unique constraint "Tabla de Usuarios_pkey"
+DETAIL:  Key (id_usuario)=(2) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x0000019267B2BBC0>
+08:24:26 PM: INFO [MenuAppUsuario.py:24] Usuarios insertados: 1
+08:24:35 PM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: Nahuel | Contraseña: 123123
+08:24:35 PM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+08:24:35 PM: INFO [MenuAppUsuario.py:18] ID: 3
+        Usuario: LiLTucas | Contraseña: 13522
+08:26:22 PM: INFO [MenuAppUsuario.py:31] usuarios actualizados: 1
+08:26:45 PM: INFO [MenuAppUsuario.py:36] Usuarios eliminados: 1
+08:26:48 PM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: VicJAV | Contraseña: artigaasss965
+08:26:48 PM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+08:26:57 PM: INFO [MenuAppUsuario.py:38] Salimos de la aplicacion
+08:27:41 PM: INFO [MenuAppUsuario.py:18] ID: 1
+        Usuario: VicJAV | Contraseña: artigaasss965
+08:27:41 PM: INFO [MenuAppUsuario.py:18] ID: 2
+        Usuario: Tomas | Contraseña: 123456
+08:27:50 PM: INFO [MenuAppUsuario.py:36] Usuarios eliminados: 1
+08:28:30 PM: INFO [MenuAppUsuario.py:36] Usuarios eliminados: 1
+08:28:45 PM: INFO [MenuAppUsuario.py:24] Usuarios insertados: 1
+08:28:46 PM: INFO [MenuAppUsuario.py:18] ID: 4
+        Usuario: Felipe | Contraseña: 123456
+08:29:02 PM: INFO [MenuAppUsuario.py:38] Salimos de la aplicacion
+08:29:43 PM: INFO [MenuAppUsuario.py:38] Salimos de la aplicacion
+07:35:39 PM: INFO [MenuAppUsuario.py:24] Usuarios insertados: 1
